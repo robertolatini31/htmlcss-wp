@@ -1,6 +1,6 @@
 :root {
     --text-color: #9f9f9f;
-    --small_title-color: #949494;
+    --small_title-color: #4e4e4e;
 }
 
 * {
@@ -110,7 +110,9 @@ main {
     width: 100%;
 }
 
-.banner_img, .img_aside_left {
+.banner_img, 
+.img_aside_left,
+.img_banner2 {
     width: 100%;
     height: 100%;
    object-fit: cover;
@@ -163,10 +165,13 @@ main {
 
 .text_aside {
     width: 100%;
+    height: 80%;
 }
 
 .small_title {
-    color: var(--small_title-color)
+    color: var(--small_title-color);
+    margin: 0.8rem 0;
+
 }
 
 .paragraph_text {
@@ -180,7 +185,7 @@ main {
 
 .text_content {
     width: 100%;
-    height: 50%;
+    height: 80%;
 }
 
 /* ---> Footer <--- */
