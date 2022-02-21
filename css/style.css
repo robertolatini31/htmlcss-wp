@@ -1,5 +1,6 @@
 :root {
     --text-color: #9f9f9f;
+    --small_title-color: #949494;
 }
 
 * {
@@ -109,7 +110,7 @@ main {
     width: 100%;
 }
 
-.banner_img {
+.banner_img, .img_aside_left {
     width: 100%;
     height: 100%;
    object-fit: cover;
@@ -131,6 +132,10 @@ main {
     height: 6%;
     width: 100%;
     margin: 3% 0;
+}
+
+.paragraph_section {
+    color: var(--text-color);
 }
 
 .container {
@@ -158,7 +163,14 @@ main {
 
 .text_aside {
     width: 100%;
-    height: 40%;
+}
+
+.small_title {
+    color: var(--small_title-color)
+}
+
+.paragraph_text {
+    color: var(--text-color);
 }
 
 .img_content{
