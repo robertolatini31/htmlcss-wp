@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 header, main, footer {
@@ -86,6 +87,7 @@ header {
     margin: 5px;
     bottom: 0;
     left: 5px;
+    font-weight: 300;
 }
 
 a {
@@ -128,6 +130,11 @@ main {
 
 .title_bigimg {
     font-size: 25px;
+    font-weight: 300;
+}
+
+.paragraph_bigimg {
+    font-weight: 100;
 }
 
 .section_title {
@@ -138,6 +145,7 @@ main {
 
 .paragraph_section {
     color: var(--text-color);
+    font-weight: 300;
 }
 
 .container {
@@ -171,11 +179,13 @@ main {
 .small_title {
     color: var(--small_title-color);
     margin: 0.8rem 0;
+    font-weight: 400;
 
 }
 
 .paragraph_text {
     color: var(--text-color);
+    font-weight: 300;
 }
 
 .img_content{
@@ -195,6 +205,7 @@ footer {
     width: 1000px;
     text-align:center;
     line-height: 50px;
+    margin-top: 2rem;
 }
 
 .heart {
